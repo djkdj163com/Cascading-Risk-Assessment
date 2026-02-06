@@ -1,0 +1,6 @@
+function placePanelLabel_local(ax, letter, FONT, FS, COL)
+    % 如果你已有 placePanelLabel，请直接用你的函数并删掉这个
+    text(ax, -0.06, 1.02, letter, 'Units','normalized', ...
+        'FontName',FONT,'FontSize',FS,'FontWeight','bold','Color',COL, ...
+        'HorizontalAlignment','left','VerticalAlignment','top', 'Clipping','off');
+end
